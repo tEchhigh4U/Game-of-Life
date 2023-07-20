@@ -1,0 +1,131 @@
+/* Add styles for mobile responsiveness */
+@media only screen and (max-width: 700px) {
+  .container-fluid {
+    padding: 0;
+  }
+  .col-sm {
+    padding: 0;
+  }
+  #pattern-list {
+    margin-top: 20px;
+  }
+  #button-list {
+    margin-top: 8px;
+  }
+  #game-area {
+    margin-top: 10px;
+  }
+  .button {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+}
+
+/*Nicer Layout*/
+body {
+  margin-bottom: 30px;
+  background-color: #b9d8d7;
+}
+
+.title {
+  font-size: 30px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+#rule {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-pattern-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20px;
+  margin-top:20px
+}
+
+.text-center {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 15px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.middle-button-list {
+  display: flex;
+  justify-content: center;
+}
+
+#control-mode {
+  display: contents;
+  justify-content: flex-end;
+}
+
+#slider-value {
+  margin: 5px;
+  font-size: 10px;
+  display: flex;
+}
+
+#controlBar {
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.row-pattern-button #button-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.pattern-list {
+  display: contents;
+  justify-content: center;
+  align-content: center;
+}
+
+.canvas-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#row-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:60%
+  padding: 3px;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+}
+
+#sliderCreate{
+  font-size: 15px;
+}
+
+#button-bottom {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#button-list-bottom {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#sliderCreate {
+  padding:10px;
+}
